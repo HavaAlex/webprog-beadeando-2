@@ -1,0 +1,24 @@
+// Define the range of numbers to use in the equations
+const minNumber = 1;
+const maxNumber = 10;
+
+// Define the operators to use in the equations
+const operators = ['+', '-', '*', '/'];
+
+// Define the number of equations to generate
+const numEquations = 5;
+
+// Generate random equations
+for (let i = 0; i < numEquations; i++) {
+  // Pick random numbers and operator
+  const num1 = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+  const num2 = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+  const operator = operators[Math.floor(Math.random() * operators.length)];
+
+  // Assemble the equation as a string
+  const equation = `${num1} ${operator} ${num2}`;
+
+  // Evaluate the equation and print the result
+  const result = eval(equation);
+  console.log(`${equation} = ${result}`);
+}

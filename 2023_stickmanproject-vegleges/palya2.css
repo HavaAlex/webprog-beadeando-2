@@ -1,0 +1,40 @@
+body{
+    background-image: url(2_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    color:white;
+}
+
+#karakterke{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 340px;
+    justify-content: flex-end;
+}
+
+#boss{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    filter:brightness(80%);
+    width: 340px;
+    justify-content: flex-end;
+}
+
+p{
+
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.gobtn{
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    position: absolute;
+}

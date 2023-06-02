@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+h1{
+    color: #fff900;
+    text-align: center;
+    position: relative;
+}
+
+h2{
+    position: relative;
+    color: #fff900;
+    text-align: center;
+
+}
